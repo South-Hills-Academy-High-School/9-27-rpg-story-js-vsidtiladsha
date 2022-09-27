@@ -106,7 +106,7 @@ function superHappyEnding(){
     superhappy2 = createScript("Pineapple","Give me please :(",2)
     superhappy3 = createScript("Pineapple","Thank for water:)",1)
     blockObject.setAnyProperty(superhappy1, AnyProp.NextPage, superhappy2)
-    blockObject.setAnyProperty(superhappy1, AnyProp.NextPage, superhappy3)
+    blockObject.setAnyProperty(superhappy2, AnyProp.NextPage, superhappy3)
     return superhappy1
 }
 let sadending1: blockObject.BlockObject = null
